@@ -2,6 +2,17 @@
     box-sizing: border-box;
 }
 
+.centering { 
+    width: 444px;
+    height: 444px;
+    position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
 .canvas {
     background-color:whitesmoke;
     width: 444px;
@@ -25,11 +36,24 @@
     height: 0;
     border-top: 2rem solid black;
     border-left: 2rem solid transparent;
-    transform: rotate(10deg);
+    transform: rotate(1deg);
     position: absolute;
     top: 8.5rem;
     left: 3rem
 }
+
+
+.yellow-beak {
+    width: 0;
+    height: 0;
+    border-top: 2rem solid black;
+    border-right: 2rem solid transparent;
+    transform: rotate(-10deg);
+    position: absolute;
+    top: 8.5rem;
+    right: 3.2rem
+}
+
 
 .whitey-tail.one {
     position: absolute;
@@ -53,6 +77,15 @@
     transform: rotate(-5deg);
 }
 
+.yellow-tail {
+    position: absolute;
+    height: 8rem;
+    width: 0.75rem;
+    background-color: #5c6667;
+    top: 16rem;
+    right: 14rem;
+    transform: rotate(35deg);
+}
 
 .bird-body.left {
     left: 3rem;
@@ -68,8 +101,18 @@
     right: -1rem;
 }
 
+.face-yellow {
+    width: 0;
+    height: 0;
+    border-bottom: 7rem solid #edeee9;
+    border-left: 7rem solid transparent;
+    transform: rotate(37deg);
+    position: absolute;
+    top: -1rem;
+    left: 1.5rem;
+}
 
-.eye {
+.eye.whitey {
     width: 1.25rem;
     height: 1.25rem;
     border-radius: 100%;
@@ -77,6 +120,17 @@
     position: absolute;
     top: 1.5rem;
     left: 3.5rem;
+    border: 0.15rem solid #edeee9;
+}
+
+.eye.yellow {
+    width: 1.25rem;
+    height: 1.25rem;
+    border-radius: 100%;
+    background-color: black;
+    position: absolute;
+    top: 1.75rem;
+    right: 3.5rem;
     border: 0.15rem solid #edeee9;
 }
 
@@ -95,6 +149,28 @@
     width: 3rem;
     height: 8rem;
     transform: rotate(5deg);
+}
+
+.wings {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 9rem solid #857c6b;
+    border-right: 10.7rem solid transparent;
+    top: 10.7rem;
+    right: 3.7rem;
+    transform: rotate(10deg);
+}
+
+.wing-bulge {
+    height: 9rem;
+    width: 1rem;
+    border-radius: 100% 100% 100% 100%;
+    background-color: #857c6b;
+    transform: rotate(10deg);
+    position: absolute;
+    top: 9.8rem;
+    right: 13.7rem;
 }
 
 .feathers-whitey {
@@ -263,4 +339,165 @@
     position: absolute;
     top: 15.4rem;
     left:9.7rem;
+}
+
+.wing-right {
+    background-color: #a6a6a6;
+    position: absolute;
+    width: 12rem;
+    height: 3.5rem;
+    border-radius: 50% / 100%;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    transform: rotate(-40deg);
+    top: -7.5rem;
+    left: -2rem;
+    overflow: hidden;
+}
+
+.stripey.one {
+    background-color: #617472;
+    position: absolute;
+    height: 13rem;
+    width: 0.3rem;
+    transform: rotate(90deg);
+    top: -3.3rem;
+    left: 5.8rem
+}
+
+.stripey.two {
+    background-color: #617472;
+    position: absolute;
+    height: 13rem;
+    width: 0.3rem;
+    transform: rotate(90deg);
+    top: -3.9rem;
+    left: 5.8rem
+}
+
+.stripey.three {
+    background-color: #617472;
+    position: absolute;
+    height: 13.25rem;
+    width: 0.3rem;
+    transform: rotate(90deg);
+    top: -4.6rem;
+    left: 5.8rem
+}
+
+.stripey.four {
+    background-color: #617472;
+    position: absolute;
+    height: 13.25rem;
+    width: 0.3rem;
+    transform: rotate(90deg);
+    top: -5.2rem;
+    left: 5.8rem
+}
+
+.stripey.five {
+    background-color: #617472;
+    position: absolute;
+    height: 13.25rem;
+    width: 0.3rem;
+    transform: rotate(90deg);
+    top: -5.8rem;
+    left: 5.8rem
+}
+
+.stripey.six {
+    background-color: #617472;
+    position: absolute;
+    height: 13.25rem;
+    width: 0.3rem;
+    transform: rotate(90deg);
+    top: -6.3rem;
+    left: 5.8rem
+}
+
+.wing-left {
+    background-color: #a6a6a6;
+    position: absolute;
+    width: 8rem;
+    height: 3.5rem;
+    border-radius: 60% 60% 0 70%;
+    transform: rotate(82deg) skew(30deg);
+    top: -6.5rem;
+    left: -3.5rem;
+    overflow: hidden;
+}
+
+
+.stripey.seven {
+    background-color: #617472;
+    position: absolute;
+    height: 13.25rem;
+    width: 0.3rem;
+    transform: rotate(90deg);
+    top: -6.3rem;
+    left: 5.8rem
+}
+
+.stripey.eight {
+    background-color: #617472;
+    position: absolute;
+    height: 13.25rem;
+    width: 0.3rem;
+    transform: rotate(90deg);
+    top: -5.8rem;
+    left: 5.8rem
+}
+
+.stripey.nine {
+    background-color: #617472;
+    position: absolute;
+    height: 13.25rem;
+    width: 0.3rem;
+    transform: rotate(90deg);
+    top: -5.25rem;
+    left: 5.8rem
+}
+
+.stripey.ten {
+    background-color: #617472;
+    position: absolute;
+    height: 13.25rem;
+    width: 0.3rem;
+    transform: rotate(90deg);
+    top: -4.7rem;
+    left: 5.8rem
+}
+
+.stripey.eleven {
+    background-color: #617472;
+    position: absolute;
+    height: 13.25rem;
+    width: 0.3rem;
+    transform: rotate(90deg);
+    top: -4.1rem;
+    left: 5.8rem
+}
+
+.stripey.tweleve {
+    background-color: #617472;
+    position: absolute;
+    height: 13.25rem;
+    width: 0.3rem;
+    transform: rotate(90deg);
+    top: -3.6rem;
+    left: 5.8rem
+}
+
+.yellow-feet {
+    position: absolute;
+    width: 1.7rem;
+    height: 1.7rem;
+    border-radius: 100%;
+    border-top: 0.30rem solid #5c6667;
+    border-right: 0.30rem solid #5c6667;
+    border-left: 0.30rem solid #5c6667;
+    border-bottom: 0.30rem solid whitesmoke;
+    transform: rotate(-30deg);
+    right: 3.3rem;
+    bottom: 10.5rem;
 }
