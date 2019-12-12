@@ -10,7 +10,8 @@
 	bottom: 0;
 	left: 0;
 	right: 0;
-	margin: auto;
+    margin: auto;
+    /* display: flex; */
 }
 
 .canvas {
@@ -19,6 +20,7 @@
     height: 444px;
     position: relative;
     font-size: 16px;
+    /* flex: 1 1 100%; */
 }
 
 .bird-body {
@@ -179,7 +181,7 @@
     height: 9rem;
     position: absolute;
     left: 8rem;
-    top: -1.95rem;
+    top: -2rem;
 }
 
 .feathers-whitey-stripes {
