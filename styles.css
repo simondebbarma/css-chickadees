@@ -1,0 +1,266 @@
+* {
+    box-sizing: border-box;
+}
+
+.canvas {
+    background-color:whitesmoke;
+    width: 444px;
+    height: 444px;
+    position: relative;
+    font-size: 16px;
+}
+
+.bird-body {
+    width: 11.25rem;
+    height: 11.25rem;
+    position: absolute;
+    background-color: black;
+    border-radius: 50%;
+    top: 7rem;
+    overflow: hidden;
+}
+
+.whitey-beak {
+    width: 0;
+    height: 0;
+    border-top: 2rem solid black;
+    border-left: 2rem solid transparent;
+    transform: rotate(10deg);
+    position: absolute;
+    top: 8.5rem;
+    left: 3rem
+}
+
+.whitey-tail.one {
+    position: absolute;
+    height: 6rem;
+    width: 2rem;
+    background-color: #5c6667;
+    border-radius: 0 0 100%;
+    top: 18rem;
+    left: 7rem;
+    transform: rotate(5deg);
+}
+
+.whitey-tail.two {
+    position: absolute;
+    height: 6rem;
+    width: 2rem;
+    background-color: #5c6667;
+    border-radius: 0 0 0 100% ;
+    top: 18rem;
+    left: 7.75rem;
+    transform: rotate(-5deg);
+}
+
+
+.bird-body.left {
+    left: 3rem;
+}
+
+.face-whitey {
+    background-color: #edeee9;
+    position: absolute;
+    width: 9.2rem;
+    height: 6rem;
+    transform: skew(20deg);
+    top: 2rem;
+    right: -1rem;
+}
+
+
+.eye {
+    width: 1.25rem;
+    height: 1.25rem;
+    border-radius: 100%;
+    background-color: black;
+    position: absolute;
+    top: 1.5rem;
+    left: 3.5rem;
+    border: 0.15rem solid #edeee9;
+}
+
+.belly-whitey {
+    background-color: #edeee9;
+    width: 11.25rem;
+    height: 8rem;
+    position: relative;
+    top: 4rem;
+}
+
+.chest-yellow {
+    background: linear-gradient(to right, #eac984, #edeee9);
+    float: left;
+    margin-left: -0.5rem;
+    width: 3rem;
+    height: 8rem;
+    transform: rotate(5deg);
+}
+
+.feathers-whitey {
+    background-color: #a7a7a5;
+    width: 5rem;
+    height: 9rem;
+    position: absolute;
+    left: 8rem;
+    top: -1.95rem;
+}
+
+.feathers-whitey-stripes {
+    background-color: #848484;
+    width: 0.20rem;
+    height: 9rem;
+    position: absolute;
+}
+
+.feathers-whitey-stripes.one {    
+    left: 0.20rem;
+}
+
+.feathers-whitey-stripes.two {
+    left: 0.60rem;
+}
+
+.feathers-whitey-stripes.three {
+    left: 1rem;
+}
+
+.feathers-whitey-stripes.four {
+    left: 1.4rem;
+}
+
+.feathers-whitey-stripes.five {
+    left: 1.8rem;
+}
+
+.feathers-whitey-stripes.six {
+    left: 2.2rem;
+}
+
+.feathers-whitey-stripes.seven {
+    left: 2.6rem;
+}
+
+.bird-body.right {
+    right: 3rem;
+}
+
+.belly-yellow {
+    background-color: #eac984;
+    width: 15rem;
+    height: 8rem;
+    position: relative;
+    top: 4rem;
+    right: 1rem;
+    transform: rotate(10deg);
+}
+
+.branch {
+    background-color: #a6a6a4;
+    position: absolute;
+    top: 16rem;
+    width: 100%;
+    height: 0.4rem;
+}
+
+.toe.one {
+    width: 0.20rem;
+    height: 1rem;
+    position: absolute;
+    top: 15.7rem;
+    left: 6rem;
+    background-color: #5c6667;
+}
+
+.toe.two {
+    width: 0.20rem;
+    height: 1rem;
+    position: absolute;
+    top: 15.7rem;
+    left: 6.7rem;
+    background-color: #5c6667;
+}
+
+.toe.three {
+    width: 0.20rem;
+    height: 1.5rem;
+    position: absolute;
+    top: 15.25rem;
+    left: 7.4rem;
+    background-color: #5c6667;
+}
+
+.toe.four {
+    width: 0.20rem;
+    height: 1rem;
+    position: absolute;
+    top: 15.7rem;
+    left: 9rem;
+    background-color: #5c6667;
+}
+
+.toe.five {
+    width: 0.20rem;
+    height: 1rem;
+    position: absolute;
+    top: 15.7rem;
+    left: 9.7rem;
+    background-color: #5c6667;
+}
+
+.toe.six {
+    width: 0.20rem;
+    height: 1.5rem;
+    position: absolute;
+    top: 15.25rem;
+    left: 10.4rem;
+    background-color: #5c6667;
+}
+
+.toe-connectarch.one {
+    width: 0.9rem;
+    height: 1rem;
+    border: 0.20rem solid #5c6667;
+    border-top-left-radius: 110px; 
+    border-top-right-radius: 110px;
+    border-bottom: 0;
+    position: absolute;
+    top: 15.4rem;
+    left:6rem;
+}
+
+.toe-connectarch.two {
+    width: 0.9rem;
+    height: 1rem;
+    border: 0.20rem solid #5c6667;
+    border-top-left-radius: 110px; 
+    border-top-right-radius: 110px;
+    border-bottom: 0;
+    position: absolute;
+    top: 15.4rem;
+    left:6.7rem;
+}
+
+.toe-connectarch.three {
+    width: 0.9rem;
+    height: 1rem;
+    border: 0.20rem solid #5c6667;
+    border-top-left-radius: 110px; 
+    border-top-right-radius: 110px;
+    border-bottom: 0;
+    position: absolute;
+    top: 15.4rem;
+    left:9rem;
+}
+
+.toe-connectarch.four {
+    width: 0.9rem;
+    height: 1rem;
+    border: 0.20rem solid #5c6667;
+    border-top-left-radius: 110px; 
+    border-top-right-radius: 110px;
+    border-bottom: 0;
+    position: absolute;
+    top: 15.4rem;
+    left:9.7rem;
+}
