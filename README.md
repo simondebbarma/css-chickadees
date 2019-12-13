@@ -1,7 +1,3 @@
-<img src="https://media.giphy.com/media/YmbEpkD9qezUN0uykh/giphy.gif" width="100%">
-
----
-
 # CSS-Chickadees
 
 > An illustration of two chickadees made with pure CSS3.
