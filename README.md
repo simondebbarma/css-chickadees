@@ -15,11 +15,8 @@
 
 ## Built With
 
-- HTML5
 - CSS3
-- Node
-- Font Awesome
-- Google Fonts
+- HTML5
 
 ## Live Demo
 
