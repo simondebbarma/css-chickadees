@@ -20,7 +20,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://simonpeterdebbarma.github.io/css-chickadees)
+[Live Demo Link](https://0ww.github.io/css-chickadees)
 
 ---
 
@@ -63,8 +63,8 @@
 
 👤 **Simon Peter Debbarma**
 
-- Github: [@simonpeterdebbarma](https://github.com/simonpeterdebbarma)
-- Twitter: [@simonpdebbarma](https://twitter.com/simonpdebbarma)
+- Github: [@simonpeterdebbarma](https://github.com/0ww)
+- Twitter: [@SimonLikelySaid](https://twitter.com/SimonLikelySaid)
 - Linkedin: [Linkedin](https://www.linkedin.com/in/simon-peter-debbarma/)
 - Keybase: @simonpd
 
